@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffff;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 200px;
+    height: 100px;
+}
+.nav-left-side{
+    display: flex;
+}
+.nav-right-side{
+    display: flex;
+    align-items: center;
+}
+nav{
+    margin-left: 50px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+.line-trow-nav{
+    height: 1px;
+    margin: 0 200px;
+    background-color: rgb(194, 194, 194);
+}
+nav li a{
+    color: rgb(150, 150, 150);
+    font-size: 18px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+.cart-img{
+    margin-right: 30px;
+}
+.nav-right-side img{
+    cursor: pointer;
+}
+.shopping-section{
+    margin: 100px 250px;
+}
+.product-img img{
+    border-radius: 20px;
+}
