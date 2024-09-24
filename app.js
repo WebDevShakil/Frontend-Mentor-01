@@ -27,3 +27,12 @@
                 thubmnailbtns[i].setAttribute("id", "product-active");
             });
         }
+const menuOpen = document.querySelector(".menu-btn")
+const menuExit = document.querySelector(".nav-menu-exit")
+const menu = document.querySelector("nav")
+ menuOpen.addEventListener("click",()=>{
+    menu.style.display="block"
+ })
+ menuExit.addEventListener("click",()=>{
+    menu.style.display="none"
+ })
